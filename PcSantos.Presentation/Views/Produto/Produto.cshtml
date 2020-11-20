@@ -1,0 +1,49 @@
+﻿@model PcSantos.Domain.Produto
+
+@{
+    ViewBag.Title = "Produto";
+}
+
+<h2>Produto</h2>
+
+<div>
+    <h4>Produto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Categoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categoria)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FichaTecnica)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FichaTecnica)
+        </dd>
+
+    </dl>
+</div>
+<p>    
+    <a href='@Url.Action("Compra", "Pedido", new { id = Model.Id })'>Comprar</a>
+</p>

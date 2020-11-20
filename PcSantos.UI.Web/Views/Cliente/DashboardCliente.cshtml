@@ -1,0 +1,24 @@
+﻿@model PcSantos.Domain.Cliente
+
+@{
+    ViewBag.Title = "DashboardCliente";
+}
+
+    <h3>Minha Conta</h3>
+    <br />
+
+    <ul class="nav">
+        <li class="nav-item">
+            <a href='@Url.Action("DadosPessoais", "Cliente", new { id = @Model.Id })'><i class="glyphicon glyphicon-check"></i>Dados Pessoais</a>
+        </li>
+
+        <li class="nav-item">
+            <a href='@Url.Action("Endereco", "Cliente", new { id = @Model.Id })'><i class="glyphicon glyphicon-check"></i>Endereço</a>
+        </li>     
+
+        <li class="nav-item">
+            <a href='@Url.Action("Pedidos", "Pedido", new { id = @Model.Id })'><i class="glyphicon glyphicon-check"></i>Pedidos</a>
+        </li>
+
+    </ul>
+    

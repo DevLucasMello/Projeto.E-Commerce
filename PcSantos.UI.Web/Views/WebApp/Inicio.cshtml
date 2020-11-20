@@ -1,0 +1,40 @@
+﻿@model IEnumerable<PcSantos.Domain.Produto>
+
+@{
+    ViewBag.Title = "Inicio";
+}
+
+<h3>Produtos</h3>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Categoria)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Valor)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>                
+                @Html.DisplayFor(modelItem => item.Categoria)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+            <td>
+                <a href='@Url.Action("Produto", "Produto", new { id = item.Id })'>Saber mais</a>
+            </td>
+        </tr>
+    }
+
+</table>

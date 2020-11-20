@@ -1,0 +1,9 @@
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.ApplicationServices\bin\Debug\PcSantos.ApplicationServices.dll
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.ApplicationServices\bin\Debug\PcSantos.ApplicationServices.pdb
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.ApplicationServices\bin\Debug\PcSantos.Domain.dll
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.ApplicationServices\bin\Debug\PcSantos.Domain.pdb
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.ApplicationServices\obj\Debug\PcSantos.ApplicationServices.csprojAssemblyReference.cache
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.ApplicationServices\obj\Debug\PcSantos.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.ApplicationServices\obj\Debug\PcSantos.ApplicationServices.csproj.CopyComplete
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.ApplicationServices\obj\Debug\PcSantos.ApplicationServices.dll
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.ApplicationServices\obj\Debug\PcSantos.ApplicationServices.pdb

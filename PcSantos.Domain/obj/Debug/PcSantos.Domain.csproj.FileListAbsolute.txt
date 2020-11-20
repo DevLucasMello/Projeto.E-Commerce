@@ -1,0 +1,6 @@
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Domain\bin\Debug\PcSantos.Domain.dll
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Domain\bin\Debug\PcSantos.Domain.pdb
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Domain\obj\Debug\PcSantos.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Domain\obj\Debug\PcSantos.Domain.dll
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Domain\obj\Debug\PcSantos.Domain.pdb
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Domain\obj\Debug\PcSantos.Domain.csprojAssemblyReference.cache

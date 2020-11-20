@@ -1,0 +1,17 @@
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\bin\Debug\PcSantos.Repository.dll.config
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\bin\Debug\PcSantos.Repository.dll
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\bin\Debug\PcSantos.Repository.pdb
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\bin\Debug\Dapper.dll
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\bin\Debug\MySql.Data.dll
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\bin\Debug\OptimizedDataReader.dll
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\bin\Debug\PcSantos.Domain.dll
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\bin\Debug\System.Buffers.dll
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\bin\Debug\PcSantos.Domain.pdb
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\bin\Debug\Dapper.xml
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\obj\Debug\PcSantos.Repository.csprojAssemblyReference.cache
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\obj\Debug\PcSantos.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\obj\Debug\PcSantos.Repository.csproj.CopyComplete
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\obj\Debug\PcSantos.Repository.dll
+C:\Users\Lucas\source\repos\PcSantos\PcSantos.Repository\obj\Debug\PcSantos.Repository.pdb

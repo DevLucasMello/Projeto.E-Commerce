@@ -1,0 +1,70 @@
+﻿@model IEnumerable<PcSantos.Domain.PedidoDetalhesViewModel>
+
+@{
+    ViewBag.Title = "Pedidos";
+}
+
+<h3>Pedidos</h3>
+
+<hr />
+<div>
+    @foreach (var pedido in Model)
+    {
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayName("Número do Pedido: ")
+            </dt>
+            <dd>
+                @Html.DisplayName(pedido.NumeroPedido.ToString())
+            </dd>
+
+            @foreach (var produto in pedido.Produtos)
+            {
+                <dt>
+                    @Html.DisplayName("Categoria: ")
+                </dt>
+                <dd>
+                    @Html.DisplayName(produto.Produto.Categoria)
+                </dd>
+                <dt>
+                    @Html.DisplayName("Descrição: ")
+                </dt>
+                <dd>
+                    @Html.DisplayName(produto.Produto.Descricao)
+                </dd>
+                <dt>
+                    @Html.DisplayName("Valor do Produto: ")
+                </dt>
+                <dd>
+                    @Html.DisplayName(produto.Produto.Valor.ToString())
+                </dd>
+                <dt>
+                    @Html.DisplayName("Quantidade: ")
+                </dt>
+                <dd>
+                    @Html.DisplayName(produto.Quantidade.ToString())
+                </dd>
+                <dt>
+                    @Html.DisplayName("Valor Total dos Produtos: ")
+                </dt>
+                <dd>
+                    @Html.DisplayName(produto.Total.ToString())
+                </dd>
+            }
+
+            <dt>
+                @Html.DisplayName("Valor Total do Pedido: ")
+            </dt>
+            <dd>
+                @Html.DisplayName(pedido.ValorTotal.ToString())
+            </dd>
+            <dt>
+                @Html.DisplayName("Status do Pedido: ")
+            </dt>
+            <dd>
+                @Html.DisplayName(pedido.StatusPedido.ToString())
+            </dd>
+        </dl>
+        <hr />
+    }
+</div>
